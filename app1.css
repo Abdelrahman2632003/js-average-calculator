@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.calc_input{
+    border: 1px solid black;
+    width: 300px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.calc_input input{
+    display: block;
+    margin: 10px auto;
+    padding: 2px;
+    border: 0;
+    border-bottom:1px solid darkgray ;
+    border-left:1px solid darkgray ;
+}
+
+.calc_input button{
+    margin: 10px 0;
+    width: 50px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.calc_input span{
+    display: none;
+    color: mediumblue;
+}
+
+
+
